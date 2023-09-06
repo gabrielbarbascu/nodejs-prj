@@ -1,8 +1,8 @@
 import { argv } from 'node:process';
 import chalk from 'chalk';
-import randomColor from 'randomColor';
+import randomcolor from 'randomcolor';
 
-const color = randomColor({ hue: argv[2], luminosity: argv[3] });
+const color = randomcolor({ hue: argv[2], luminosity: argv[3] });
 
 console.log(
   chalk.hex(color)(`  ###############################
