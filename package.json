@@ -20,6 +20,7 @@
     "chalk": "^5.3.0",
     "node-random-color": "^0.2.0",
     "randomcolor": "^0.6.2",
+    "types": "^0.1.1",
     "uniqolor": "^1.1.0"
   }
 }
